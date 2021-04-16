@@ -6,8 +6,9 @@ use GDW\Core\Block\Adminhtml\System\Core\ModuleInfoFull as Fieldset;
 class ModuleInfoFull extends Fieldset
 {
     const GDW_MODULE_CODE = 'GDW_DisableWelcomeEmail';
-    const GDW_MODULE_LINK = 'system_config/edit/section/customer/#customer_create_account-link';
-
+    const GDW_MODULE_LINK = 'adminhtml/system_config/edit/section/customer';
+    const GDW_MODULE_LINK_SECC = '#customer_create_account-link';
+    
     public function getDescFull()
     {
         $html =
