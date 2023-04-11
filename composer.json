@@ -2,26 +2,28 @@
   "name": "gdw/disablewelcomeemail",
   "description": "Módulo GDW Disable Welcome Email Magento 2",
   "type": "magento2-module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "proprietary",
   "authors": [
     {
       "name": "José Cruz Chávez",
-      "email": "josecruz@gestiondigitalweb.com",
-      "homepage": "https://gestiondigitalweb.com",
+      "email": "jcruz@gdw.mx",
+      "homepage": "https://gdw.mx",
       "role": "Developer"
     }
   ],
   "require": {
+    "php": "^7.2||^8.0",
     "gdw/core": "^2.0.0"
   },
   "minimum-stability": "dev",
   "keywords": [
     "magento 2",
     "store",
-    "body", 
     "gdw",
-    "email"
+    "email",
+    "mail",
+    "gestion digital web"
   ],
   "autoload": {
     "files": [
