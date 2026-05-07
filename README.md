@@ -6,7 +6,7 @@ Este módulo tiene la finalidad de deshabilitar el correo de bienvenida que se l
 * La configuración puede ser por tienda.
 
 ## Compatibilidad
-✓ Magento 2.3.x, ✓ Magento 2.4.x
+✓ Magento 2.4.4+ (rama 4.4.x)
 
 ###### Ejecuta los siguientes comandos en la ruta base de Magento.
 
