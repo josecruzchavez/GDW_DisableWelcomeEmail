@@ -1,6 +1,8 @@
-![gdw_opengraph](https://gestiondigitalweb.com/github_assets/gdw_disablewelcomeemail/gdw_disablewelcomeemail.jpg)
+![gdw_opengraph](https://medios.gdw.mx/github_assets/gdw_disablewelcomeemail/gdw_disablewelcomeemail.jpg)
 
 # GDW DisableWelcomeEmail para Magento 2
+[![Latest Stable Version](https://img.shields.io/packagist/v/gdw/disablewelcomeemail?style=for-the-badge)](https://packagist.org/packages/gdw/disablewelcomeemail) [![PHP Version Require](https://img.shields.io/packagist/dependency-v/gdw/disablewelcomeemail/php?style=for-the-badge)](https://packagist.org/packages/gdw/disablewelcomeemail) [![Magento Framework Require](https://img.shields.io/packagist/dependency-v/gdw/disablewelcomeemail/magento%2Fframework?style=for-the-badge)](https://packagist.org/packages/gdw/disablewelcomeemail) [![License](https://img.shields.io/packagist/l/gdw/disablewelcomeemail?style=for-the-badge)](https://packagist.org/packages/gdw/disablewelcomeemail)
+
 Este módulo tiene la finalidad de deshabilitar el correo de bienvenida que se le envía a nuevos usuarios.
 
 * La configuración puede ser por tienda.
