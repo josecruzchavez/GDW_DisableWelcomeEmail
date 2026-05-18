@@ -2,7 +2,7 @@
     "name": "gdw/disablewelcomeemail",
     "description": "M\u00f3dulo GDW Disable Welcome Email Magento 2",
     "type": "magento2-module",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "license": "proprietary",
     "authors": [
         {
