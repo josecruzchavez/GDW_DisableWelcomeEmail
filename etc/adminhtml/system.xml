@@ -1,15 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <section id="gdwcoremodulelist">
-            <group id="gdwdisablewelcomeemailinfo" type="text" translate="label" sortOrder="41" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>GDW Disable Welcome Email</label>
-                <field id="gdwaddcodestoreinfo" type="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <frontend_model>GDW\DisableWelcomeEmail\Block\Adminhtml\System\ModuleInfoFull</frontend_model>
-                </field>
-            </group>
-        </section>
-
         <section id="customer">            
         
             <group id="create_account">
