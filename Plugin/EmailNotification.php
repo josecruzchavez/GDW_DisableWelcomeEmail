@@ -2,10 +2,11 @@
 namespace GDW\DisableWelcomeEmail\Plugin;
 
 use GDW\DisableWelcomeEmail\Helper\Data;
+use Magento\Customer\Api\Data\CustomerInterface;
 
 class EmailNotification extends \Magento\Customer\Model\EmailNotification {
 
-    private $helper;
+    private Data $helper;
     
     public function __construct(Data $helper)
     {
@@ -16,21 +17,20 @@ class EmailNotification extends \Magento\Customer\Model\EmailNotification {
     public function aroundNewAccount(
         \Magento\Customer\Model\EmailNotification $subject,
         \Closure $proceed,
-        \Magento\Customer\Api\Data\CustomerInterface $customer,
-        $type,
-        $backUrl = '',
-        $storeId = 0,
-        $sendemailStoreId = null
-    ) {
+        CustomerInterface $customer,
+        string $type,
+        ?string $backUrl = '',
+        ?int $storeId = 0,
+        ?string $sendemailStoreId = null
+    ): void {
 
         $code = 'customer/create_account/diable_send_welcome_email';
 
-        if($this->helper->getConfigValue($code, $storeId) == true){
-           return;
+        if ($this->helper->getConfigValue($code, $storeId) == true) {
+            return;
         }
 
-        $result = $proceed($customer ,$type ,$backUrl ,$storeId ,$sendemailStoreId);
-        return $result; 
+        $proceed($customer, $type, $backUrl, $storeId, $sendemailStoreId);
     }
 
 }
