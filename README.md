@@ -1,4 +1,4 @@
-![gdw_opengraph](https://medios.gdw.mx/github_assets/gdw_disablewelcomeemail/gdw_disablewelcomeemail.jpg)
+![gdw_disablewelcomeemail](https://medios.gdw.mx/github_assets/gdw_disablewelcomeemail/gdw_disablewelcomeemail.jpg)
 
 # GDW DisableWelcomeEmail para Magento 2
 [![Latest Stable Version](https://img.shields.io/packagist/v/gdw/disablewelcomeemail?style=for-the-badge)](https://packagist.org/packages/gdw/disablewelcomeemail) [![PHP Version Require](https://img.shields.io/packagist/dependency-v/gdw/disablewelcomeemail/php?style=for-the-badge)](https://packagist.org/packages/gdw/disablewelcomeemail) [![Magento Framework Require](https://img.shields.io/packagist/dependency-v/gdw/disablewelcomeemail/magento%2Fframework?style=for-the-badge)](https://packagist.org/packages/gdw/disablewelcomeemail) [![License](https://img.shields.io/packagist/l/gdw/disablewelcomeemail?style=for-the-badge)](https://packagist.org/packages/gdw/disablewelcomeemail)
@@ -12,7 +12,9 @@ Este módulo tiene la finalidad de deshabilitar el correo de bienvenida que se l
 * La configuración puede ser por tienda.
 
 ## Compatibilidad
-✓ Magento 2.4.4+ (rama 4.4.x)
+- Rama 4.4.x: Magento 2.4.4+ con PHP 8.1 a 8.3
+- Rama 4.x: Magento 2.4.0 a 2.4.3 con PHP 7.4
+- Rama 3.x: Magento 2.3.x con PHP 7.4
 
 ###### Ejecuta los siguientes comandos en la ruta base de Magento.
 
@@ -43,7 +45,7 @@ php bin/magento cache:flush
 ### Eliminación
 
 ```
-php bin/magento module:disbale GDW_DisableWelcomeEmail
+php bin/magento module:disable GDW_DisableWelcomeEmail
 composer remove gdw/disablewelcomeemail
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
@@ -58,7 +60,7 @@ php bin/magento cache:flush
 * [🍺 Invítame una cerveza.](https://www.paypal.me/gestiondigitalweb)
 
 ### Otros enlaces
-* [Sitio web](https://gdw.com/?utm_source=github&utm_medium=gdw&utm_campaign=disablewelcomeemail&utm_id=link)
+* [Sitio web](https://gdw.mx/?utm_source=github&utm_medium=gdw&utm_campaign=disablewelcomeemail&utm_id=link)
 * [Listado de Módulos](https://gdw.mx/modulos/)
 * [Facebook](https://www.facebook.com/GestionDigitalWeb)
 * [Youtube](https://www.youtube.com/c/Gestiondigitalweb)
