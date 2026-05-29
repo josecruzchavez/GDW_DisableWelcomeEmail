@@ -12,7 +12,7 @@ Este módulo tiene la finalidad de deshabilitar el correo de bienvenida que se l
 * La configuración puede ser por tienda.
 
 ## Compatibilidad
-- Rama 4.4.x: Magento 2.4.4+ con PHP 8.1 a 8.3
+- Rama 4.4.x: Magento 2.4.4+ con PHP 8.1+
 - Rama 4.x: Magento 2.4.0 a 2.4.3 con PHP 7.4
 - Rama 3.x: Magento 2.3.x con PHP 7.4
 
